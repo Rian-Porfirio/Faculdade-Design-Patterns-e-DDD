@@ -347,7 +347,6 @@ class LibraryItemSearch {
 class TitleSearch
 class CategorySearch
 class IdentifierSearch
-class AuthorSearch
 }
 
 %% =================================================
@@ -369,7 +368,6 @@ Notification <|.. WhatsAppNotification : implementa envio por WhatsApp
 LibraryItemSearch <|.. TitleSearch : busca por título
 LibraryItemSearch <|.. CategorySearch : busca por categoria
 LibraryItemSearch <|.. IdentifierSearch : busca por identificador
-LibraryItemSearch <|.. AuthorSearch : busca por autor
 
 %% =================================================
 %% DOMAIN RELATIONSHIPS
